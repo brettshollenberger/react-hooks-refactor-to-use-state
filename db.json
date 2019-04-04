@@ -2,7 +2,7 @@
   "todos": [
     {
       "text": "Hello world",
-      "completed": false,
+      "completed": true,
       "id": 1
     },
     {

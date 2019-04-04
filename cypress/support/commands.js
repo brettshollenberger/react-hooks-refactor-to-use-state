@@ -86,6 +86,6 @@ Cypress.Commands.add("map", {prevSubject: true}, (subject, fn) => {
 })
 
 beforeEach(() => {
-    cy.resetSeeds();
+    // cy.resetSeeds();
     cy.task('db:seed', {todos: []})
 })
